@@ -50,50 +50,20 @@ $ pip install -r requirements.txt
 ### Start Local Server For API Testing:
 
 ```
-$ python 
+$ python app.py
 ```
 
-For Testing The API different ways can be used either you can download PostMan Community Version for testing. Once you start the local server just add a route "\predict" at the end of your local host link. It might look as well
 
-```
-$ https:\\{Your IP}\predict
-```
-
-It requires a header which contains different details which will be given as user input via website and these will be used to predict the possiblity of fraud or not-fraud. A sample header which might look as follows:-
-
-```
-{
-    "NPPM": 1,
-    "LoanStatus": "existing loans paid back duly till now",
-    "Objective": "Purchase of radio/television",
-    "Amount": 1278,
-    "Guarantee": "none",
-    "Experience": "between 1 and 4 years",
-    "M_Status": "male and single",
-    "ExistingLoan": 1,
-    "Age": 36,
-    "CA_Balance": "no current account",
-    "SA_Balance": "less than 100",
-    "PI_Balance": 4,
-    "WorkAB": "Yes",
-    "PhNum": 0,
-    "Tenure": 24,
-    "prop": "Real Estate",
-    "JobTyp": "management/ self-employed/highly qualified employee/ officer",
-    "HouseT": "own",
-    "NOE": 1
-}
-```
 
 
 ### Start Website on LocalHost For Testing:
 
-Pre-requiste you should have node installed and setup complted on your system to run AILOEC on your local system 
+Pre-requisite you should have the node installed and setup completed on your system to run this project on your local system 
 
 ```
-$ npm install root_dir/main_dir
+$ npm install in client
 ```
 
 ```
-$ npm run dev
+$ npm start
 ```
